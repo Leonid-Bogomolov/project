@@ -1,0 +1,66 @@
+.info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    margin-right: 4rem;
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 55px;
+}
+
+.info h2 {
+    color: #e83a4b;
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #e83a4b;
+}
+
+.home_container {
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    margin: 50px 0 auto;
+    height: 105vh;
+    max-width: 1400px;
+}
+
+.img-wrapper {
+    width: 90%;
+    padding-left: 10%;
+}
+
+.img-main {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+
+@keyframes favicon-shake {
+    0%,
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+}
+
+.img-wrapper:hover {
+    animation-name: favicon-shake;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}

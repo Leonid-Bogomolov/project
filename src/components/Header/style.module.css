@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 48px;
+    /*background-color: #f9f5f4;*/
+    /*opacity: 0.5;*/
+}

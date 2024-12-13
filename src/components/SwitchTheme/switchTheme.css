@@ -1,0 +1,34 @@
+.theme {
+    /*top: 0;*/
+    height: 20px;
+    width: 40px;
+    padding: 4.5px;
+    font-size: 10px;
+    font-weight: 900;
+    color: #434343;
+    text-align: center;
+    background-color: #b5b5b5;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dark-theme {
+    display: inline-block;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: black;
+    margin-bottom: 1px;
+    margin-right: 4px;
+}
+
+.light-theme {
+    display: inline-block;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: white;
+    margin-bottom: 1px;
+    margin-left: 5px;
+}
