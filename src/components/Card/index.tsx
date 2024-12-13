@@ -19,7 +19,7 @@ const Card: FC<Props> = ({ data }/*{
     }*/) => {
     //console.log(title)
     return (
-        <Link to={`/Bean/${data.beanId}`} className={style.card}>
+        <Link to={`/project/Bean/${data.beanId}`} className={style.card}>
             <h2>{data.flavorName}</h2>
             <div className='img-div'>
                 <img className='card-img' src={data.imageUrl} alt=''></img>
