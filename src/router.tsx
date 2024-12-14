@@ -12,7 +12,7 @@ import Loader from "./components/Loader";
 
 const router = createBrowserRouter([
     {
-        path: "/project",
+        path: "/",
         element: <Layout />,
         loader: Loader ,
         children: [
